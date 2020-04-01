@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TravisciApplication {
 
 	public static void main(String[] args) {
+		//testing for bugs
 		SpringApplication.run(TravisciApplication.class, args);
 	}
-
+public void message() {
+	System.out.println("adding a line to travis-ci");
+}
 }
